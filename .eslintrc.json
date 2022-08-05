@@ -1,6 +1,7 @@
 {
-  "extends": "@rocketseat/eslint-config/react",
+  "extends": ["prettier"],
   "rules": {
-    "no-unused-vars": "off"
+    "react/no-unescaped-entities": "off",
+    "import/no-anonymous-default-export": "off"
   }
 }
